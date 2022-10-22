@@ -12,8 +12,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{C4F18CD7-D7D4-4728-AA8B-1668078A807A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "csstest", "demo\test\csstest.vcxproj", "{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {A78DCBC4-077B-4884-A7F4-D9AF70EDB538}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dvd_region", "demo\test\dvd_region.vcxproj", "{579C9534-10BD-4E94-AB8F-6DE7564E3728}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A78DCBC4-077B-4884-A7F4-D9AF70EDB538} = {A78DCBC4-077B-4884-A7F4-D9AF70EDB538}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
